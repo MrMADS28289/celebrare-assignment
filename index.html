@@ -11,6 +11,9 @@
     <!-- --------css links------ -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- --------croperjs css links------ -->
+    <link rel="stylesheet" href="./node_modules/cropperjs/dist/cropper.min.css">
+
 </head>
 
 <body>
@@ -24,15 +27,31 @@
 
     <main>
         <!-- --------Image Upload Section------ -->
-        <section>
-            <div>
-                <h3>Upload Image</h3>
-                <input type="file" class="img-input">
+        <section class="container">
+            <div class="files-upload-area">
+                <h1>Upload Image</h1>
+
+                <label class="label">
+                    <span class="files-input">
+                        <input type="file" id="get-file-input" />
+                        <span>Choose from Device</span>
+                    </span>
+                </label>
             </div>
+
+            <div>
+                <img src="" alt="" id="image">
+            </div>
+
+            <h1 id="bla">b</h1>
         </section>
     </main>
 
+    <!-- --------Scripts------ -->
     <script src="js/app.js"></script>
+
+    <!-- --------croperjs script links------ -->
+    <script src="./node_modules/cropperjs/dist/cropper.min.js"></script>
 
 </body>
 

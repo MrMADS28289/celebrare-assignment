@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/*** Header Style ***/
+
 .header {
     display: flex;
     padding: 20px;
@@ -13,4 +15,49 @@
     color: rgb(126, 124, 127);
     text-align: center;
     width: 100%;
+}
+
+/*** Choose Image Style ***/
+
+.container {
+    margin: 30px;
+}
+
+.files-upload-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 180px;
+    border: 4px solid rgb(189, 185, 185);
+    border-radius: 20px;
+}
+
+.files-upload-area h1 {
+    font-style: italic;
+    color: rgb(126, 124, 127);
+    font-size: x-large;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.label {
+    height: 50px;
+    width: 240px;
+    margin-top: 20px;
+    background-color: rgb(8, 129, 120);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.files-input span {
+    position: relative;
+    top: -5px;
+    font-size: 19px;
+    font-family: monospace;
+}
+
+#get-file-input {
+    opacity: 0;
 }
