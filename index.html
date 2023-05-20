@@ -8,11 +8,12 @@
     <link rel="shortcut icon" href="asset/celebrare.jpg" type="image/x-icon">
     <title>Celebrare</title>
 
-    <!-- --------css links------ -->
-    <link rel="stylesheet" href="css/style.css">
 
     <!-- --------croperjs css links------ -->
     <link rel="stylesheet" href="./node_modules/cropperjs/dist/cropper.min.css">
+
+    <!-- --------css links------ -->
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -39,20 +40,34 @@
                 </label>
             </div>
 
-            <div>
-                <img src="" alt="" id="image">
+        </section>
+
+        <!-- --------Croping modal------ -->
+        <div id="crop-modal" class="modal">
+
+            <div class="modal-content">
+                <div>
+                    <span class="close">
+                        <img height="40" src="asset/left-arrow.png" alt="">
+                    </span>
+                    <button class="crop-btn">Crop</button>
+                </div>
+
+                <div class="croping-img">
+                    <img width="380" src="" alt="" id="image">
+                </div>
             </div>
 
-            <h1 id="bla">b</h1>
-        </section>
+        </div>
     </main>
 
-    <!-- --------Scripts------ -->
-    <script src="js/app.js"></script>
 
     <!-- --------croperjs script links------ -->
     <script src="./node_modules/cropperjs/dist/cropper.min.js"></script>
 
+
+    <!-- --------Scripts------ -->
+    <script src="js/app.js"></script>
 </body>
 
 </html>

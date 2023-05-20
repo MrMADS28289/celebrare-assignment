@@ -61,3 +61,56 @@
 #get-file-input {
     opacity: 0;
 }
+
+/*** Image croping modal style ***/
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.699);
+}
+
+.modal-content {
+    background-color: #000000b6;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%;
+}
+
+.croping-img {
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.close {
+    color: rgb(255, 255, 255);
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(95, 66, 66);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.crop-btn {
+    color: white;
+    background-color: transparent;
+    font-style: italic;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    float: right;
+    padding-right: 50px;
+}
