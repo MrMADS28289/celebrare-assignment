@@ -40,6 +40,10 @@
                 </label>
             </div>
 
+            <div class="output-container">
+                <img src="" id="output" alt="">
+            </div>
+
         </section>
 
         <!-- --------Croping modal------ -->
@@ -50,7 +54,7 @@
                     <span class="close">
                         <img height="40" src="asset/left-arrow.png" alt="">
                     </span>
-                    <button class="crop-btn">Crop</button>
+                    <button id="crop-btn" class="crop-btn">Crop</button>
                 </div>
 
                 <div class="croping-img">
@@ -59,6 +63,33 @@
             </div>
 
         </div>
+
+        <!-- --------frame selecting modal------ -->
+        <div id="frame-modal" class="modal2">
+
+            <div class="frame-modal-content">
+                <div>
+                    <span class="close2">
+                        x
+                    </span>
+                </div>
+
+                <div class="use-img">
+                    <h3>Uploaded Image</h3>
+                    <img class="croped-img" src="" alt="" id="use-image">
+                    <div>
+                        <span class="frame">Original</span>
+                        <img class="frame" src="./asset/user_image_frame_1.png" alt="">
+                        <img class="frame" src="./asset/user_image_frame_2.png" alt="">
+                        <img class="frame" src="./asset/user_image_frame_3.png" alt="">
+                        <img class="frame" src="./asset/user_image_frame_4.png" alt="">
+                        <button id="use-btn" class="use-btn">use this image</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
     </main>
 
 
