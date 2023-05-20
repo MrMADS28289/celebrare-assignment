@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    padding: 20px;
+    box-shadow: 0 4px 15px 0 rgb(212, 211, 211);
+}
+
+.header h1 {
+    color: rgb(126, 124, 127);
+    text-align: center;
+    width: 100%;
+}
