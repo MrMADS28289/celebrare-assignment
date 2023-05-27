@@ -52,3 +52,34 @@ window.onclick = function (event) {
     }
 }
 
+let frameUrl = document.getElementById('output-frame');
+const frame = document.getElementById('frame');
+const frame1 = document.getElementById('frame1');
+const frame2 = document.getElementById('frame2');
+const frame3 = document.getElementById('frame3');
+const frame4 = document.getElementById('frame4');
+
+frame.addEventListener('click', function () {
+    frameUrl.src = '';
+    frame.style.backgroundColor = 'green';
+});
+frame1.addEventListener('click', function () {
+    frameUrl.src = './asset/user_image_frame_1.png';
+    frame1.style.backgroundColor = 'green';
+    frame1.style.display = 'block';
+});
+frame2.addEventListener('click', function () {
+    frameUrl.src = './asset/user_image_frame_2.png';
+    frame2.style.backgroundColor = 'green';
+    frame2.style.display = 'block';
+});
+frame3.addEventListener('click', function () {
+    frameUrl.src = './asset/user_image_frame_3.png';
+    frame3.style.backgroundColor = 'green';
+    frame3.style.display = 'block';
+});
+frame4.addEventListener('click', function () {
+    frameUrl.src = './asset/user_image_frame_4.png';
+    frame4.style.backgroundColor = 'green';
+    frame1.style.display = 'block';
+});
